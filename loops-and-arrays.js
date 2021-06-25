@@ -4,7 +4,16 @@
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 namen zou bevatten!
 // ==========================================
 
+// variables
 const names = ["Henk", "Piet", "Fred", "Joop"];
+
+// for loop through 'names', change name and overwrite the list 'names'
+for (let i = 0; i < names.length; i++) {
+     names[i] = names[i] + "je";
+}
+
+// log the list
+console.log(names);
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -19,7 +28,16 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 getallen zou bevatten!
 // ==========================================
 
+// variables
 const numbers = [2, 4, 5, 29, 38];
+
+// for loop through 'numbers', multiply with 3 and overwrite the list 'numbers'
+for (let i = 0; i < numbers.length; i++) {
+    numbers[i] = numbers[i] * 3;
+}
+
+// log the list
+console.log(numbers);
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -35,7 +53,16 @@ const numbers = [2, 4, 5, 29, 38];
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 getallen zou bevatten!
 // ==========================================
 
+// variables
 const squares = [30, 2, 8, 24, 11];
+
+// for loop through 'squares', cubes the number and overwrite the list 'squares'
+for (let i = 0; i < squares.length; i++) {
+    squares[i] = (squares[i] ** 3);
+}
+
+// log the list
+console.log(squares);
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
