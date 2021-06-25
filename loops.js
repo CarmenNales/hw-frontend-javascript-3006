@@ -22,12 +22,16 @@ for (let i = 0; i < 3; i++) {
 // ==========================================
 
 // for loop log 4 times "loop..."
-for (let i = 0; i < 4; i++) {
-    console.log("loop...");
-}
+for (let i = 0; i < 5; i++) {
+    if (i < 4) {
+        console.log("loop...");
+    }
 
-// log 1 time "klaar!"
-console.log("klaar!")
+    // log the 5th loop 1 time "klaar"
+    if (i === 4) {
+        console.log("klaar!")
+    }
+}
 
 // ==========================================
 // Opdracht 3. Maak een for-loop die van 0 tot 15 loopt. Voor ieder getal wordt in de console gelogd of het getal even of oneven is.

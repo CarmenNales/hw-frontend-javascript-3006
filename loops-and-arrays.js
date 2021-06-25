@@ -6,15 +6,14 @@
 
 // variables
 const names = ["Henk", "Piet", "Fred", "Joop"];
-const newList = [];
 
-// for loop through 'names', change name and add new name to 'newList'
+// for loop through 'names', change name and overwrite the list 'names'
 for (let i = 0; i < names.length; i++) {
-    newList.push(names[i] + "je");
+     names[i] = names[i] + "je";
 }
 
-// log new list 'newList'
-console.log(newList);
+// log the list
+console.log(names);
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -31,15 +30,14 @@ console.log(newList);
 
 // variables
 const numbers = [2, 4, 5, 29, 38];
-let newNumbers = [];
 
-// for loop through 'numbers', multiply with 3 and save new number to 'newNumbers'
+// for loop through 'numbers', multiply with 3 and overwrite the list 'numbers'
 for (let i = 0; i < numbers.length; i++) {
-    newNumbers.push(numbers[i] * 3);
+    numbers[i] = numbers[i] * 3;
 }
 
-// log new list 'newNumbers'
-console.log(newNumbers);
+// log the list
+console.log(numbers);
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -57,15 +55,14 @@ console.log(newNumbers);
 
 // variables
 const squares = [30, 2, 8, 24, 11];
-let newSquares = [];
 
-// for loop through 'squares', squares the number and set to 'newSquares'
+// for loop through 'squares', cubes the number and overwrite the list 'squares'
 for (let i = 0; i < squares.length; i++) {
-    newSquares.push(squares[i] ** 3);
+    squares[i] = (squares[i] ** 3);
 }
 
-// log new list 'newSquares'
-console.log(newSquares);
+// log the list
+console.log(squares);
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
