@@ -57,7 +57,7 @@ console.log(numbers);
 const squares = [30, 2, 8, 24, 11];
 
 // for loop through 'squares', cubes the number and overwrite the list 'squares'
-for (let i = 0; i < squares.length; i++) {
+for ( let i = 0; i < squares.length; i++) {
     squares[i] = (squares[i] ** 3);
 }
 
